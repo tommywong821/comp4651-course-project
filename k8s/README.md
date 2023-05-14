@@ -1,3 +1,6 @@
+minikube stop
+minikube delete
+minikube start
 First cd to k8s folder:
 kubectl apply -f
 1. zookeeper + tab
