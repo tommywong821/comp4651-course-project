@@ -1,0 +1,18 @@
+kafka-producer-perf-test.sh --topic perf-test --num-records 500 --record-size 1024 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 500
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 500 --record-size 5120 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 500
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 500 --record-size 10240 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 500
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 5000 --record-size 1024 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 5000
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 5000 --record-size 5120 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 5000
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 5000 --record-size 10240 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 5000
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 50000 --record-size 1024 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 50000
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 50000 --record-size 5120 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 50000
+
+kafka-producer-perf-test.sh --topic perf-test --num-records 50000 --record-size 10240 --throughput -1 --producer-props bootstrap.servers=10.42.0.10:9092,10.42.0.12:9092,10.42.1.4:9092,10.42.10.4:9092,10.42.2.4:9092,10.42.4.4:9092,10.42.5.4:9092,10.42.6.4:9092,10.42.7.4:9092,10.42.8.4:9092,10.42.9.4:9092 compression.type=lz4 | grep 50000
+
